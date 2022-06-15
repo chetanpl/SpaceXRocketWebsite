@@ -69,37 +69,54 @@
 
 
 /* Media Query for Mobile Devices */
-@media (min-width: 373px) {
+@media (max-width: 480px) {
     .bg_Text_Box {
         font-size: 0.3rem;
-        left: 1rem;
+        left: 0.9rem;
 
     }
     .bg_Text {
-        font-size: 10px;
-        width: 377px;
-        height: 400px;
+        font-size: 0.5rem;
+        width: 15rem;
+        height: 15rem;
+        
     }
     .bg_Text_Header {
+        font-size: 0.5rem;
+    }
+    .clock {
+        position: absolute;
+        top: 12rem;
+        z-index: 1;
         font-size: 2rem;
+        text-align: left;
+        color:rgb(210, 185, 185);
+        width:21rem;
     }
 }
 /* Media Query for Mobile Devices */
-@media (max-width: 380px) {
+@media (max-width: 768px) {
     .bg_Text_Box {
         font-size: 0.5rem;
-        left: 0.2rem;
-        width: 170px;
-        height: 300px;
+        left: 0.9rem;
 
     }
     .bg_Text {
-        font-size: 10px;
-        width: 377px;
-        height: 400px;
+        font-size: 0.5rem;
+        width: 22rem;
+        height: 22rem;
     }
     .bg_Text_Header {
         font-size: 2rem;
+    }
+    .clock {
+        position: absolute;
+        top: 12rem;
+        z-index: 1;
+        font-size: 2rem;
+        text-align: left;
+        color:rgb(210, 185, 185);
+        width:21rem;
     }
 }
   
