@@ -4,10 +4,22 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { createStore, applyMiddleware } from 'redux';
+import thunk from 'redux-thunk';
+import { Provider } from 'react-redux';
+
+import rootReducer from './redux/reducers/rootReducer';
+import { fetchSpacexData } from './redux/action/index';
+
+const store = createStore(rootReducer, applyMiddleware(thunk));
+
+store.dispatch(fetchSpacexData());
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <App />
+    </Provider>
   </React.StrictMode>
 );
 

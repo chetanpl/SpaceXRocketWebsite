@@ -1,0 +1,38 @@
+.parent{
+	background-color: #0A7189;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 3rem;
+	font-weight: 700;
+	text-shadow: 0px 3px 0px #7f8c8d;
+}
+.message{
+	top: 1%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	background: rgb(169, 35, 35);
+}
+
+.error{
+	font-size: 20rem;
+	text-align: center;
+	margin: 0;
+	background: rgb(169, 35, 35);
+}
+  
+.rotate{
+	position: absolute;
+	top: 38%;
+	left: 25%;
+
+	background: rgb(169, 35, 35);
+	-webkit-transform-origin: 0 20px 0;
+	-moz-transform-origin:    0 20px 0;
+	-ms-transform-origin:     0 20px 0;
+	-o-transform-origin:      0 20px 0;
+	-webkit-transform: rotate(307deg);
+	-moz-transform:    rotate(307deg);
+	-ms-transform:     rotate(307deg);
+	-o-transform:      rotate(307deg);
+}

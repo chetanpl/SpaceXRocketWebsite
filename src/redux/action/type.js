@@ -1,0 +1,1 @@
+export const FETCH_SPACEXDATA = 'FETCH_SPACEXDATA';
