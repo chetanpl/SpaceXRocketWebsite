@@ -16,10 +16,11 @@ function Space_X_Description({ data }) {
   return (
     <div className='box'>
       <div className='spaceX'>
+        <div style={{textAlign :'center'}}>
       <div className='spaceXName'>{serviceData[0]?.name}</div>
       <br/>
       <div className='spaceXDescription'>{serviceData[0]?.details ? serviceData[0]?.details : 'No Description Available..'}</div>
-      <div className='spaceXImage'><img src={serviceData[0]?.links?.patch?.large} alt={serviceData[0]?.name}  height="50%" width="50%;" /></div>
+      </div> <div className='spaceXImage'><img src={serviceData[0]?.links?.patch?.large} alt={serviceData[0]?.name}  height="50%" width="50%;" /></div>
     </div>
     </div>
   )
