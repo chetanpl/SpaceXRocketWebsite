@@ -69,7 +69,7 @@
 
 
 /* Media Query for Mobile Devices */
-@media (min-width: 373px) and  (max-width: 680px) {
+@media (min-width: 373px) {
     .bg_Text_Box {
         font-size: 0.3rem;
         left: 1rem;
