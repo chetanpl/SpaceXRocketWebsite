@@ -12,8 +12,10 @@ export default function Clock() {
             clearInterval(timerID);
         };
     }, []);
+    //ar-EG //ko-KR //fa-IR //{timeZone: "America/New_York" //"en-GB", {timeZone: "Europe/London",
+      //  timeZoneName: "short"})
     const tick = () => {
-        setDate(new Date().toLocaleTimeString('en-US', {
+        setDate(new Date().toLocaleTimeString("en-US", {
             hour: 'numeric',
             minute: 'numeric',
             second: 'numeric',
