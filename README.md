@@ -6,6 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 <img width="1728" alt="image" src="https://github.com/chetanpl/SpaceXRocketWebsite/assets/16497813/9b07dfdb-4e5f-4d50-b2bf-0b76a9b436af">
 <img width="1728" alt="image" src="https://github.com/chetanpl/SpaceXRocketWebsite/assets/16497813/40f93cba-94db-4523-bcfc-8c2af0505640">
 <img width="1724" alt="image" src="https://github.com/chetanpl/SpaceXRocketWebsite/assets/16497813/658ca0c8-e9d2-4864-8f24-bf4f2f9ba5b9">
+<img width="509" alt="image" height="382" alt="image" src="https://github.com/user-attachments/assets/4fadb0a4-b06e-448d-a435-2dd1efbce82e" />
 
 ## Available Scripts
 
